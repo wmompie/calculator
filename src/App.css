@@ -1,3 +1,25 @@
 * {
   font-family: 'Roboto Mono', monospace;
 }
+
+html,
+body {
+  background-blend-mode: color, normal;
+  background: linear-gradient(
+      150.64deg,
+      #fc0101 0%,
+      #ff0000 0.01%,
+      rgba(26, 92, 229, 0.3) 60%,
+      rgba(0, 102, 255, 0.6) 80%,
+      #0066ff 100%
+    ),
+    #303030;
+  bottom: 0;
+  box-sizing: border-box;
+  color: #fff;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+}
